@@ -1,0 +1,6 @@
+.cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 60px 40px; max-width: 1000px; margin-top: 60px; }
+.cards__item { display: flex; flex-direction: column; align-items: center; width: 240px; text-align: center; }
+.cards__image { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; }
+.cards__title { margin: 30px 0 16px; font-size: 24px; line-height: 1.15; font-weight: 700; }
+.cards__description { margin: 0; font-size: 18px; line-height: 1.35; }
+@media (max-width: 600px) { .cards { gap: 40px; margin-top: 40px; } }
