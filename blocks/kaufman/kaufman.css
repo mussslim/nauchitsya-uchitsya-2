@@ -1,0 +1,3 @@
+.kaufman { position: relative; display: flex; flex-direction: column; align-items: center; padding: 90px 24px 0; background: #1f1f1f; overflow: hidden; }
+.kaufman .section-title, .kaufman .section-subtitle { position: relative; z-index: 1; color: #fff; }
+.kaufman__triangle { position: absolute; top: 0; right: -210px; z-index: 0; width: min(877px, 70vw); height: auto; }
