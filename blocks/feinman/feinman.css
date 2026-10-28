@@ -1,0 +1,6 @@
+.feinman { position: relative; display: flex; flex-direction: column; align-items: center; min-height: 790px; padding-top: 100px; box-sizing: border-box; background: #f2f2f2; overflow: hidden; }
+.feinman__title { position: relative; z-index: 2; max-width: 650px; margin: 0 24px 40px; text-align: center; font-size: clamp(56px, 9vw, 120px); line-height: 1.05; }
+.feinman__subtitle { position: relative; z-index: 2; margin: 0; font-size: 36px; line-height: 1.4; }
+.feinman__link { position: absolute; z-index: 2; top: 50%; right: 48px; color: #1f1f1f; font-size: 24px; text-decoration: none; }
+.feinman__pic { position: absolute; bottom: 0; left: 0; width: min(70%, 867px); max-height: 78%; object-fit: contain; object-position: left bottom; }
+@media (max-width: 700px) { .feinman { min-height: 600px; padding-top: 70px; } .feinman__subtitle { font-size: 24px; } .feinman__link { top: auto; right: 24px; bottom: 24px; } .feinman__pic { width: 95%; } }
